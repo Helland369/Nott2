@@ -29,7 +29,7 @@ std::string Binary::binary_to_ascii(std::string& binaryString)
 
       sstream >> bits; // reads the next 8 bit binary segment from the std::stringstream into bits
 
-      text += char(bits.to_ulong()); // convert the binary number to a 64bit uint.
+      text += char(bits.to_ulong()); // convert the binary number to a 32bit uint.
     }
 
   return text;
