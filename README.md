@@ -1,2 +1,2 @@
-# N-tt2
+# Nott2
 Nøtt oppgave
